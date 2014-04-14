@@ -24,7 +24,7 @@ namespace ResolveDlls
             try
             {
                 var creds = new NetworkCredential("v1deploy", "Versi0n1.c26nu", "\\");
-                var tfsServer = new TfsTeamProjectCollection(new Uri("http://ec2-54-81-168-188.compute-1.amazonaws.com:8080/tfs"), creds);
+                var tfsServer = new TfsTeamProjectCollection(new Uri("http://ec2-54-198-234-132.compute-1.amazonaws.com:8080/tfs"), creds);
                 tfsServer.Authenticate();
                 return tfsServer;
             }
