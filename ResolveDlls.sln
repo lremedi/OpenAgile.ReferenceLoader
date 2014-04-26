@@ -2,9 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResolveDlls", "ResolveDlls\ResolveDlls.csproj", "{BBD350D1-6FB3-4091-BFA7-461B4220FAFE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceLoader", "ReferenceLoader\ReferenceLoader.csproj", "{A59872B9-3C40-48A7-9E38-4ABA5D1A52C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAgile.ReferenceLoader", "OpenAgile.ReferenceLoader\OpenAgile.ReferenceLoader.csproj", "{A59872B9-3C40-48A7-9E38-4ABA5D1A52C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,10 +10,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BBD350D1-6FB3-4091-BFA7-461B4220FAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BBD350D1-6FB3-4091-BFA7-461B4220FAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BBD350D1-6FB3-4091-BFA7-461B4220FAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BBD350D1-6FB3-4091-BFA7-461B4220FAFE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A59872B9-3C40-48A7-9E38-4ABA5D1A52C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A59872B9-3C40-48A7-9E38-4ABA5D1A52C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A59872B9-3C40-48A7-9E38-4ABA5D1A52C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
